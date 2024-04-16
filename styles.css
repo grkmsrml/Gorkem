@@ -131,7 +131,44 @@
 .bosluk{
     padding: 3%;
 }
-#a{
+a{
     text-decoration: black;
     color: black;
+    /*
+    padding: 5px;
+    border: 5px solid #5995da; */
+}
+a:hover{
+    background-color: rgb(218, 205, 205);
+   /* text-shadow: #5995da;
+    padding: 5px;*/
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #5995da;
+    color: #fff;
+}
+.flex-item{
+    flex: 0 1 auto;
+    align-self: center;
+    order: 2px;
+    display: flex;
+
+}
+.header-container{
+    color: #5995da;
+    background-color: #d6e9fe;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
 }
