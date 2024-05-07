@@ -145,12 +145,21 @@ a:hover{
 }
 .flex-container{
     display: flex;
-    flex-direction: column;
+    max-width: 50%;
+  
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px 0;
+    padding: 0px 0;
     color: #000000;
+}
+
+.flex{
+    display: flex;
+}
+
+.column-flex{
+    flex-direction: column;
 }
 .flex-item{
     align-self: flex-start;
@@ -200,4 +209,4 @@ a:hover{
     .smaller{
         width: 10%;
         height: auto;
-        background-color: rgb(230, 223, 221);
+        background-color: rgb(230, 223, 221);}
