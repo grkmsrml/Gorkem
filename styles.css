@@ -210,3 +210,11 @@ a:hover{
         width: 10%;
         height: auto;
         background-color: rgb(230, 223, 221);}
+.italik{
+    font-style: italic;
+}
+.yeniböl{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
