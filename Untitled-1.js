@@ -20,3 +20,13 @@ function yenibölyap() {
     yeniböl.textContent ='Firindan taze taze div';
     document.body.appendChild(yeniböl);
 }
+let buton= document.getElementById('butoncuk')
+    buton.addEventListener ('click',function(e)
+    {
+        console.log('Buttonclicked!',e)
+    })
+function koyunsayaç(){
+    for(let i=1; i<=3; i++){
+        alert("Çitleden atlayan koyun sayısı" +i);
+    }
+}
